@@ -1,0 +1,125 @@
+.navbar-inverse,
+.navbar-toggle,
+.navbar-toggle:focus,
+.navbar-toggle:hover {
+  background-color: #2c3e50;
+}
+.navbar-nav>li.active>a {
+  background-color: transparent !important;
+  border-bottom: 2px solid rgb(7, 180, 218);
+}
+h1, h2 {
+  text-align: center;
+}
+.carousel-caption {
+  padding-bottom: 130px;
+}
+.carrousel_p_text {
+  font-size: 22px;
+  text-align: center;
+}
+button.carousel_button {
+  width: 220px;
+  height: 45px;
+  border-radius: 5px;
+  border: 0;
+  background: #2c3e50;
+}
+button.carousel_button:hover {
+  background: rgb(7, 180, 218);
+}
+div#do >  h1 {
+		padding-top: 15px;
+		font-size: 38px;
+	}
+	div#do > p {
+		text-align: justify;
+		padding-top: 10px;
+		font-size: 16px;
+		color: #979797;
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+	div#do > div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 0;
+		padding-right: 0;
+		cursor: pointer;
+	}
+    .background_style {
+      background-size: cover;
+			background-repeat: no-repeat;
+      display: block;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      float: none;
+      height: 300px;
+      color: #fff;
+      padding: 0;
+    }
+		div#do > div#ux > div {
+			background-image: url("../assets/ux_1920.jpg");
+		}
+		div#do > div#web > div {
+			background-image: url("../assets/home-office_1920.jpg");
+		}
+
+		div#do > div#mobile > div {
+			background-image: url("../assets/smartphone_1920.jpg");
+		}
+			div#do > div > div > span {
+				background-color: black;
+				opacity: 0.7;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+				div#do > div > div > span > h1 {
+					text-align: center;
+					font-size: 36px;
+					margin-top: 15px;
+					padding-top: 25px;
+					color: #fff;
+				}
+				div#do > div > div > span > p {
+					font-size: 18px;
+					text-align: center;
+					margin-top: 32px;
+					color: #fff;
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+			div#do > div > div > div.learn{
+				position: absolute;
+				bottom: 0px !important;
+				padding: 0;
+				height: 5px;
+				max-height: 40px;
+				background-color: #288a7c;
+			}
+				div#do > div > div > div.learn > h4 {
+					padding-left: 15px;
+          font-size: 16px;
+				}
+  	.learnMore {
+  		height: 40px !important;
+  	}
+
+/*Mobile Phones*/
+@media (max-width: 767px){
+  .carousel-caption {
+    padding-bottom: 55px;
+  }
+  header.carousel .item,
+  header.carousel .item.active,
+  header.carousel .carousel-inner {
+      /*height: 100%;*/
+      height: 320px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Canvapp</title>
+
+    <!-- CSS Style -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/master.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">CanvApp</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('assets/hiker_1920.png');"></div>
+                <div id="caption_1" class="carousel-caption">
+                    <p class="carrousel_p_text">Inicia la aventura HOY</p>
+                    <h2>Crea tu negocio en linea, disponible 24/7</h2>
+                    <button type="button" name="button" class="carousel_button">Empieza hoy</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('assets/country_1920.jpg');"></div>
+                <div id="caption_2" class="carousel-caption">
+                    <p class="carrousel_p_text">Inicia la aventura HOY</p>
+                    <h2>Ayudamos a las empresas PROSPERAR en linea</h2>
+                    <button type="button" name="button" class="carousel_button">INICIA AHORA</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('assets/city.jpg');"></div>
+                <div id="caption_3" class="carousel-caption">
+                  <p class="carrousel_p_text">Inicia la aventura HOY</p>
+                  <h2>Impulsa la Productividad, Inovacion y Compromiso en tu Negocio</h2>
+                  <button type="button" name="button" class="carousel_button">INICIA AHORA</button>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Marketing Icons Section -->
+        <div class="row" >
+          <!-- Ideal Section -->
+          <div id="do" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="page-header">Escuchar. Analizar. Crear.</h2>
+            <p>En CanvApp, empezamos desarrollando una comprension de su negocio y sus aspiraciones.
+            Implementamos nuestros conocimientos y creamos sitios web, aplicaciones mobiles, tiendas en
+              linea y publicidad digital, todo esto para mejorar los resultados de su negocio, resolver
+              sus problemas y hacer su vida mas facil.</p>
+            <div id="ux" class="col-lg-4 col-md-4 col-sm-12 col-xs-12" onmouseover="learnMore('ux')" onmouseout="learnMore('ux')">
+              <div  class="col-lg-11 col-md-11 col-sm-11 col-xs-11 background_style">
+                <span>
+                  <h1>Diseño Gráfico</h1>
+                  <p>
+                    Te ayudamos a contruir la identidad de tu negocio mediante nuestros servicios graficos.
+                  </p>
+                </span>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 learn slider">
+                  <h4>Mas sobre Diseño Gráfico</h4>
+                </div>
+              </div>
+            </div>
+            <div id="web" class="col-lg-4 col-md-4 col-sm-12 col-xs-12" onmouseover="learnMore('web')" onmouseout="learnMore('web')">
+              <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 background_style">
+                <span>
+                  <h1>Diseño Web</h1>
+                  <p>
+                    Sitios dinámicos, responsivos y personalizados para cualquier rango de presupuesto.
+                  </p>
+                </span>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 learn slider">
+                   <h4>Más sobre Diseño Web</h4>
+                </div>
+              </div>
+            </div>
+            <div id="mobile" class="col-lg-4 col-md-4 col-sm-12 col-xs-12" onmouseover="learnMore('mobile')" onmouseout="learnMore('mobile')">
+              <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 background_style">
+                <span>
+                  <h1>Desarrollo de Apps</h1>
+                  <p>
+                    Diseñar y desarrollar la App ideal para las necesidades espeficias de tu negocio.
+                  </p>
+                </span>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 learn slider">
+                   <h4>Más sobre Desarrollo de Apps</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 15000 //changes the speed
+    })
+
+    /*
+      Mouse Events: onMouse Enter, onMouse Leave
+    */
+    function learnMore(id){
+      if($("#"+id+" div div.learn").hasClass("learnMore")){
+        $("#"+id+" div div.learn ").removeClass("learnMore");
+      }
+      else {
+        $("#"+id+" div div.learn").addClass("learnMore");
+      }
+    }
+    </script>
+
+</body>
+
+</html>
