@@ -72,8 +72,20 @@ header.carousel .fill {
 
 footer {
     margin: 50px 0;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
 }
-
+footer > .row > div {
+  margin: 35px 0 5px 0;
+}
+footer > .row > div > div > img {
+  margin: 2px;
+}
+footer > div > div > img {
+  float: right;
+  margin-bottom: 10px;
+}
 /* Responsive Styles */
 
 @media(max-width:991px) {

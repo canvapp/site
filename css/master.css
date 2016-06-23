@@ -3,6 +3,10 @@
 .navbar-toggle:focus,
 .navbar-toggle:hover {
   background-color: #2c3e50;
+
+}
+.navbar-nav>li > a{
+  color:#fff !important;
 }
 .navbar-nav>li.active>a {
   background-color: transparent !important;
@@ -10,6 +14,9 @@
 }
 h1, h2 {
   text-align: center;
+}
+h2 {
+  font-size: 36px;
 }
 .carousel-caption {
   padding-bottom: 130px;
@@ -23,10 +30,15 @@ button.carousel_button {
   height: 45px;
   border-radius: 5px;
   border: 0;
-  background: #2c3e50;
+  background: rgb(7, 180, 218);
+  margin: 10px 0 5px 0;
+  /*background: transparent;*/
 }
 button.carousel_button:hover {
-  background: rgb(7, 180, 218);
+
+  background-color: #45ca58;
+  /*border: 0;*/
+  /*background: #2c3e50;*/
 }
 div#do >  h1 {
 		padding-top: 15px;
@@ -61,15 +73,23 @@ div#do >  h1 {
 		div#do > div#ux > div {
 			background-image: url("../assets/ux_1920.jpg");
 		}
+      div#do > div#ux > div > span {
+        background-color: rgb(228, 126, 19);
+      }
 		div#do > div#web > div {
 			background-image: url("../assets/home-office_1920.jpg");
 		}
-
+      div#do > div#web > div > span {
+        background-color: rgb(10, 143, 55);
+      }
 		div#do > div#mobile > div {
 			background-image: url("../assets/smartphone_1920.jpg");
 		}
+      div#do > div#mobile > div > span {
+        background-color: rgb(31, 133, 190);
+      }
 			div#do > div > div > span {
-				background-color: black;
+				/*background-color: black;*/
 				opacity: 0.7;
 				position: absolute;
 				top: 0;
@@ -98,7 +118,8 @@ div#do >  h1 {
 				padding: 0;
 				height: 5px;
 				max-height: 40px;
-				background-color: #288a7c;
+				/*background-color: #2c3e50;*/
+        background-color: #45ca58;
 			}
 				div#do > div > div > div.learn > h4 {
 					padding-left: 15px;
@@ -107,6 +128,33 @@ div#do >  h1 {
   	.learnMore {
   		height: 40px !important;
   	}
+  .no-margin {
+    margin: 0;
+  }
+  .maring-auto {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  .grid_title {
+    color: #fff;
+  }
+  .grid_p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+  }
+  .grid {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+100 */
+    background: rgb(167,207,223); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+
 
 /*Mobile Phones*/
 @media (max-width: 767px){
