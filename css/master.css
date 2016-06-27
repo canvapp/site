@@ -74,13 +74,15 @@ div#do >  h1 {
 			background-image: url("../assets/ux_1920.jpg");
 		}
       div#do > div#ux > div > span {
-        background-color: rgb(228, 126, 19);
+        /*background-color: rgb(228, 126, 19);*/
+        background-color: #588c7e;
       }
 		div#do > div#web > div {
 			background-image: url("../assets/home-office_1920.jpg");
 		}
       div#do > div#web > div > span {
-        background-color: rgb(10, 143, 55);
+        /*background-color: rgb(10, 143, 55);*/
+        background-color: #f2ae72;
       }
 		div#do > div#mobile > div {
 			background-image: url("../assets/smartphone_1920.jpg");
@@ -90,7 +92,7 @@ div#do >  h1 {
       }
 			div#do > div > div > span {
 				/*background-color: black;*/
-				opacity: 0.7;
+				opacity: 0.8;
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -131,16 +133,17 @@ div#do >  h1 {
   .no-margin {
     margin: 0;
   }
-  .maring-auto {
-    margin-left: auto;
-    margin-right: auto;
+  .margin-auto {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
     float: none;
   }
   .grid_title {
     color: #fff;
   }
   .grid_p {
-    text-align: center;
+    text-align: center !important;
     color: #fff;
     font-size: 18px;
   }
@@ -154,8 +157,20 @@ div#do >  h1 {
     background: linear-gradient(135deg,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
+  .padding-bottom {
+    padding-bottom: 35px;
+  }
+  #process {
+    text-align: center;
+  }
+  #contact-sec {
+    background-image: url("../assets/startup_1920.jpg");
+    height: 300px;
+  }
 
-
+  #contact-sec > div {
+    padding-top: 25px;
+  }
 /*Mobile Phones*/
 @media (max-width: 767px){
   .carousel-caption {
