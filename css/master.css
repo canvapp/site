@@ -164,13 +164,10 @@ div#do >  h1 {
     text-align: center;
   }
   #contact-sec {
-    background-image: url("../assets/startup_1920.jpg");
+    background-image: url("../assets/city.jpg");
     height: 300px;
   }
 
-  #contact-sec > div {
-    padding-top: 25px;
-  }
 /*Mobile Phones*/
 @media (max-width: 767px){
   .carousel-caption {
@@ -184,5 +181,8 @@ div#do >  h1 {
   }
   h2 {
     font-size: 24px;
+  }
+  #contact-sec {
+    height: 320px;
   }
 }
