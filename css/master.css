@@ -46,8 +46,11 @@ button.carousel_button {
 button.carousel_button:hover {
 
   background-color: #45ca58;
-  /*border: 0;*/
-  /*background: #2c3e50;*/
+  border: 0;
+  background: #2c3e50;
+}
+div#do {
+  /*background-color:  #2c3e50;*/
 }
 div#do >  h1 {
 		padding-top: 15px;
