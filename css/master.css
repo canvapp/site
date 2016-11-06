@@ -1,16 +1,24 @@
+/*
+  Navigation Bar
+*/
+.navbar{
+  min-height: 80px;
+}
 .navbar-inverse,
 .navbar-toggle,
 .navbar-toggle:focus,
 .navbar-toggle:hover {
   background-color: #2c3e50;
-
+}
+nav > div.container {
+  margin-top: 15px;
 }
 .navbar-nav>li > a{
   color:#fff !important;
 }
 .navbar-nav>li.active>a {
-  background-color: transparent !important;
-  border-bottom: 2px solid rgb(7, 180, 218);
+  background-color: #354b60 !important;
+  border-radius: 3px;
 }
 .navbar-brand {
   padding: 0px 0px 0px 15px;
@@ -20,35 +28,77 @@
 }
 .navbar-brand>img {
   display: inline-block;
+  max-width: 80%;
 }
-h1, h2 {
-  text-align: center;
+/*
+  jumbotron
+*/
+.jumbotron {
+  background-image: url("../assets/keyboard_1920_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: #fff;
 }
-h2 {
-  font-size: 36px;
+.jumbotron_header {
+  font-weight: 200;
 }
-.carousel-caption {
-  padding-bottom: 130px;
-}
-.carrousel_p_text {
-  font-size: 22px;
-  text-align: center;
-}
-button.carousel_button {
-  width: 220px;
-  height: 45px;
-  border-radius: 5px;
+.jumbotron_mail_form {
+  width: 50%;
+  height: 50px;
+  float: left;
   border: 0;
-  background: rgb(7, 180, 218);
-  margin: 10px 0 5px 0;
-  /*background: transparent;*/
+  border-radius: 0;
 }
-button.carousel_button:hover {
+.jumbotron_button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #3192b3;
+}
+.jumbotron_form_height{
+  height: 50px;
+}
 
-  background-color: #45ca58;
-  border: 0;
-  background: #2c3e50;
+/*
+  Help Classes
+*/
+.text_center {
+  text-align: center !important;
 }
+.odd {
+  background-color: #ecf0f1;
+}
+.section_1 {
+  background: #ecf0f1;
+}
+.margin_top_bottom {
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+}
+.padding-bottom {
+  padding-bottom: 35px;
+}
+.padding-top {
+  padding-top: 10px;
+}
+/*h2 {
+  font-size: 36px;
+  font-weight: lighter;
+}*/
+.header2_style {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.border_line {
+  border-bottom: 1px solid #ededed;
+}
+
+
+
+
 div#do {
   /*background-color:  #2c3e50;*/
 }
@@ -152,11 +202,11 @@ div#do >  h1 {
     float: none;
   }
   .grid_title {
-    color: #fff;
+    /*color: #fff;*/
   }
   .grid_p {
     text-align: center !important;
-    color: #fff;
+    /*color: #fff;*/
     font-size: 18px;
   }
   .grid {
@@ -169,9 +219,7 @@ div#do >  h1 {
     background: linear-gradient(135deg,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
-  .padding-bottom {
-    padding-bottom: 35px;
-  }
+
   #process {
     text-align: center;
   }
@@ -182,9 +230,6 @@ div#do >  h1 {
 
 /*Mobile Phones*/
 @media (max-width: 767px){
-  .carousel-caption {
-    padding-bottom: 55px;
-  }
   header.carousel .item,
   header.carousel .item.active,
   header.carousel .carousel-inner {
@@ -197,4 +242,16 @@ div#do >  h1 {
   #contact-sec {
     height: 320px;
   }
+
+  /*
+    Jumbotron
+  */
+  .jumbotron_mail_form {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .jumbotron_form_height{
+    height: 110px;
+  }
+
 }
